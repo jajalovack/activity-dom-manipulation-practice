@@ -1,8 +1,6 @@
 body
 {
     margin: 0;
-    width: 100vw;
-    overflow-x: hidden;
     font-family: Arial;
 }
 
@@ -63,7 +61,7 @@ header h2
 {
     .headerNav
     {
-        position: absolute;
+        position: fixed;
         top: -7px;
         width: 40vw;
         background-color: #152e9c;
